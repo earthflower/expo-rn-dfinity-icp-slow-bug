@@ -1,0 +1,21 @@
+{
+  "canisters": {
+    "counter": {
+      "main": "ic/Main.mo"
+    }
+  },
+  "dfx": "0.8.1",
+  "defaults": {
+    "build": {
+      "output": "canisters",
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
